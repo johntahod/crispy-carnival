@@ -29,7 +29,9 @@ void loop() {
   digitalWrite(trig,LOW);//turn out trig
   duration=pulseIn(echo,HIGH);//reads signal
   distance = duration *0.034/2; //conversion factor
-  Serial.println(distance);
+  Serial.println(distance)
+  Serial.println("testing");
+;
   
 
 /*
